@@ -1,79 +1,108 @@
-# Call\_Centre-KPI-Dashboard
 
-Excel dashboard for call-centre data analysis
+# 📊 Call Center Performance Analysis | Excel Dashboard
 
+## 📌 Business Problem
 
+Call centers generate large volumes of customer interaction data, but without proper analysis, it becomes difficult to identify performance gaps, optimize agent productivity, and improve customer satisfaction.
 
+This project analyzes call center data to uncover key insights related to agent performance, customer satisfaction, and revenue generation, helping stakeholders make data-driven decisions.
 
+---
 
-\## 📌 Project Overview 
+## 🎯 Objective
 
+- Evaluate agent efficiency and workload distribution  
+- Analyze customer satisfaction trends (CSAT)  
+- Identify revenue-driving factors  
+- Provide actionable recommendations to improve operations  
 
+---
 
-This project involves a comprehensive analysis of call center operations using Microsoft Excel. The goal of this analysis is to evaluate representative performance, track customer satisfaction, and identify key trends across different regions to optimize call center efficiency and business revenue. 
+## 🛠️ Tools & Skills Used
 
+- Microsoft Excel  
+  - Data Cleaning & Transformation  
+  - Pivot Tables & Pivot Charts  
+  - Dashboard Creation  
 
+- Data Analysis  
+  - KPI Tracking  
+  - Performance Comparison  
+  - Trend Analysis  
 
-\## 🛠️ Tools \& Techniques Used
+---
 
+## 📊 Dataset Overview
 
+- Total Records: 1,000+ call entries  
+- Key Fields:
+  - Call Duration  
+  - Representative ID (R01–R05)  
+  - Customer Satisfaction Rating (CSAT)  
+  - Purchase Amount  
+  - Customer Demographics (Age, City)  
 
-\* \*\*Microsoft Excel\*\*: Data cleaning, data transformation, and reporting.
+---
 
-\* \*\*Pivot Tables\*\*: Summarizing large datasets to extract actionable insights.
+## 📈 Key Performance Indicators (KPIs)
 
-\* \*\*KPI Tracking\*\*: Monitoring critical business metrics across different variables.
+- Total Call Duration: 89,850 minutes  
+- Total Revenue Generated: $96,623  
+- Average CSAT Score: 3.88 / 5  
+- Call Volume Distribution across agents and regions  
 
+---
 
+## 🔍 Key Insights
 
-\## 📊 Key Metrics Evaluated
+- Peak call volumes were observed during specific periods, indicating the need for better workforce planning  
+- Significant performance variation exists among agents, with some consistently achieving higher CSAT scores  
+- Higher customer satisfaction (CSAT > 4) is associated with increased purchase amounts  
+- Certain regions contributed more to overall call volume and revenue  
 
+---
 
+## 📈 Business Recommendations
 
-\* \*\*Total Call Volume \& Duration:\*\* Monitored the time spent on customer interactions to assess efficiency.
+- Provide targeted training for lower-performing agents to improve service quality  
+- Optimize staffing during peak call hours to reduce workload pressure  
+- Encourage best practices from high-performing agents to boost CSAT  
+- Focus on high-performing regions to maximize revenue opportunities  
 
-\* \*\*Customer Satisfaction Ratings:\*\* Evaluated the quality of service provided by individual agents.
+---
 
-\* \*\*Purchase Amounts:\*\* Correlated call outcomes with generated business revenue.
+## 📊 Dashboard Features
 
-\* \*\*"Happy Calls":\*\* A specialized metric tracking highly successful and positive customer interactions.
+- Interactive performance comparison across agents (R01–R05)  
+- Region-wise analysis of call activity  
+- CSAT and revenue correlation insights  
+- Clean and user-friendly layout for quick decision-making  
 
+---
 
+## 🚀 How to Use
 
-\## 💡 Project Structure \& Key Insights
+1. Download the Excel file from this repository  
+2. Open using Microsoft Excel (Desktop recommended)  
+3. Navigate to the "Customer Report" sheet  
+4. Use filters and pivot controls to explore insights  
 
+---
 
+## ⚠️ Note
 
-The workbook is structured into distinct workflows to ensure data integrity and clear reporting:
+Some advanced Excel features (such as pivot-based models) may not function properly in non-desktop environments. For best experience, use the Microsoft Excel desktop version.
 
-\* \*\*Raw Data (`Data`):\*\* Processed raw call records including call dates, duration buckets, representative IDs, and customer demographics (e.g., Age, City).
+---
 
-\* \*\*Data Aggregation (`pivots`):\*\* Dynamic summarization of 1,000 recorded calls, calculating a total of 89,850 minutes of call duration, $96,623 in total purchase amounts, and an average satisfaction rating of 3.88.
+## 👤 Author
 
-\* \*\*Regional \& Agent Performance (`Customer Report`):\*\* Comparative analysis of five distinct representatives (R01 - R05) across key regional markets, including Cincinnati, Cleveland, and Columbus.
+AJAY
 
+---
 
+## 🔥 Next Steps (Planned Improvements)
 
-## 📷 Dashboard Preview
-
-Below is a snapshot of the interactive Excel dashboard:
-![Dashboard](dashboard.png)
-
-
-
-\## 🚀 How to View This Project
-
-
-
-1\. Download the `AJAY\_EXCEL\_CALL CENTRE.xlsx` file from this repository.
-
-2\. Open the file in Microsoft Excel.
-
-3\. Navigate to the \*\*Customer Report\*\* tab to view the final performance breakdowns and aggregated findings.
-
-
-
-\---
-
-\*Created by AJAY\*
-
+- Build an advanced version using Power BI  
+- Integrate SQL-based data extraction  
+- Add automated data refresh and dynamic reporting  
