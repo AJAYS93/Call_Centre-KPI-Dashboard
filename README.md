@@ -54,6 +54,13 @@ The workbook is structured into distinct workflows to ensure data integrity and 
 
 
 
+## 📷 Dashboard Preview
+
+Below is a snapshot of the interactive Excel dashboard:
+![Dashboard](dashboard.png)
+
+
+
 \## 🚀 How to View This Project
 
 
